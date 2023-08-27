@@ -1,0 +1,201 @@
+@font-face {
+    font-family: megalodon;
+    src: url('./assets/TitilliumWeb-Light.ttf');
+}
+
+@font-face {
+    font-family: gay;
+    src: url('./assets/TitilliumWeb-Bold.ttf');
+}
+
+
+*,html,body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 300vh;
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+.mode{
+    width: 100%;
+    height: 300vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+
+.logo img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    display: flex;
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: megalodon;
+}
+
+
+.content2{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.content2 img{
+    border-radius: 50%;
+}
+
+.nama{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: Bolder;
+    font-family: gay;
+}
+
+
+.content3{
+    display: flex;
+    justify-content:center ;
+    margin-top: 40vh;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content4{
+    background-color: rgb(161, 142, 177);
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+  flex-direction: column;
+}
+
+
+.isi{
+    margin-top: 5vh;
+    font-family: megalodon;
+    font-weight: 600;
+}
+.isi2{
+    margin-top: 5vh;
+    font-family: megalodon;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.isi3{
+    margin-top: 10vh;
+    font-family: megalodon;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.isi4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.isi4 img{
+    padding: 10px;
+}
+
+.gambar{
+    margin-top: 25vh;
+    cursor: pointer;
+}
+
+.gambar1{
+    padding: 5px;
+    border-radius: 15px;
+}
+.gambar2{
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.gambar3{
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.gambar4{
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.hak{
+  font-weight: bolder;
+  color: white;
+}
+
+
+.gambar1:hover{
+    opacity: 0.5;
+}
+.gambar2:hover{
+    opacity: 0.5;
+}
+.gambar3:hover{
+    opacity: 0.5;
+}
+.gambar4:hover{
+    opacity: 0.5;
+}
+
+.btn:hover{
+    color: blueviolet;
+}
+
+
+@media screen and (max-width: 500px){
+    .container{
+        width: 100%;
+        height: 350vh;
+        background-color: white;
+        color: black;
+        position: relative;
+    }
+
+    .mode{
+        width: 100%;
+        height: 350vh;
+        background-color: black;
+        color: white;
+        position: relative;
+    }
+}
